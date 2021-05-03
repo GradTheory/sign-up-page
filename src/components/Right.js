@@ -15,20 +15,20 @@ const Right = () => {
                        <hr className=" inline-block mb-1.5 w-5/12"/>  or  <hr className="inline-block mb-1.5 w-5/12"/>
 
                    </span>
-                   <div className="mt-3.5 text-left pb-11 border-b border-solid border-gray-300 -m-3">
+                   <div  className="mt-3.5 text-left pb-11 border-b border-solid border-gray-300 -m-3">
                        <form action="#">
                            <label className="leading-6">Full Name</label>
                            <div className="relative w-full border border-solid border-gray-300 rounded-md mt-2 mb-2.5">
-                               <input className="px-3.5 py-2 w-full " placeholder="Full Name" type="text"/>
+                               <input id='caret' className="bg-transparent px-3.5 py-2 w-full outline-none " placeholder="Full Name" type="text"/>
                             </div>
                             
                             <label className="leading-6">Email</label>
                             <div className="relative w-full border border-solid border-gray-300 rounded-md mt-2 mb-2.5">
-                                <input className="px-3.5 py-2 w-full" placeholder="Email" type="text"/>
+                                <input id='caret' className="bg-transparent px-3.5 py-2 w-full outline-none" placeholder="Email" type="text"/>
                             </div>
                             <label className="leading-6">Password</label>
                             <div className="relative w-full border border-solid border-gray-300 rounded-md mt-2 mb-2.5">
-                                <input className="px-3.5 py-2 w-full" placeholder="Password" type="password"/>
+                                <input id='caret' className="bg-transparent px-3.5 py-2 w-full outline-none" placeholder="Password" type="password"/>
 
                             </div>
                              <div className="flex justify-center mx-3 mt-6">
